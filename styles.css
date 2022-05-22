@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .searchbutton{
+      height: 37px;
+      background-color: #fb3e44;
+      font-size: 15px;
+      margin-right: 75px;
+      color: white;
+      border-style: none;
+  }
+  .npmlogo{
+      width: 70px;
+      height: 30px;
+  }
+  .busqueda{
+      display: flex;
+      width: 1500px;
+      height: 30px;
+      margin-left: 15px;
+  }
+  .joinbutton{
+      border: 1px 1px 1px 1px;
+      background-color: white;
+      padding: 7px;
+      width: 60px;
+  }
+  #joinbutton{
+    text-decoration: none;
+  }
+
+  /* background-color: #fb3e44;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 80px;
+  color: white;
+  border-style: none;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  */
+  .loginbutton{
+      border: none;
+      background-color: white;
+      padding: 7px;
+      width: 60px;
+  }
+
+/* Seccion 1 */ 
+#secciones{
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+}
+
+section div h1 {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+section article h3{
+  width: 490px;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+#botones{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+section div button a{
+  text-decoration: none;
+}
+#boton1{
+  background-color: #fb3e44;
+  font-weight: 600;
+  width: 200px;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 100px;
+  border-style: none;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+#link1{
+  text-decoration: none;
+  color: white;
+}
+#link2{
+  text-decoration: none;
+  color: black;
+}
+#boton2{
+  background-color: white;
+  font-weight: 600;
+  width: 200px;
+  font-size: 20px;
+  padding: 20px;
+  margin-right: 50px;
+  color: black;
+  border-style: none;
+}
+
+/* Seccion 2 */
+#triangulo-hexagono{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+section div h2{
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+  margin-left: 350px;
+  font-size: 50px;
+  width: 1180px;
+}
+
+section article{
+  text-align: center;
+  width: 780px;
+  margin-left: 540px;
+}
+
+/* Seccion 3 */
+.cajas{
+  margin-top: 20px;
+  display: inline-block;
+  padding: 30px;
+  margin-left: 100px;
+}
+
+.imagenes{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.titulos{
+  margin-top: 20px;
+  color: #ED1C24;
+  margin-right: -80px;
+}
+
+.textoscajas{
+  margin-top: 30px;
+  width: 250px;
+  margin-left: 0px;
+}
+
+/* Boton */
+
+.org{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: black;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  width: 300px;
+  height: 50px;
+  margin-left: 750px;
+}
